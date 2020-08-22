@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.abhi.aiob">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ForgotPassword"></activity>
+        <activity android:name=".Result" />
+        <activity android:name=".KhaJana" />
+        <activity android:name=".Others" />
+        <activity android:name=".Robbery" />
+        <activity android:name=".ManMadeDisaster" />
+        <activity android:name=".NaturalDisaster" />
+        <activity android:name=".Terrorist" />
+        <activity android:name=".Assault" />
+        <activity android:name=".Accident" />
+        <activity android:name=".Fire" />
+        <activity android:name=".Opt" />
+        <activity android:name=".Reg" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8870323806538407~6818895303" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

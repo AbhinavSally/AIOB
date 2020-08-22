@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "441623086459",
+    "firebase_url": "https://allinonebro-bf2f0.firebaseio.com",
+    "project_id": "allinonebro-bf2f0",
+    "storage_bucket": "allinonebro-bf2f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441623086459:android:673450206a66414aaba9de",
+        "android_client_info": {
+          "package_name": "com.abhi.aiob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441623086459-n2pkudc515fvk53fgl97m486e6s1d80n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhi.aiob",
+            "certificate_hash": "34611098457b1610923b5c0ee50dce3474f83cdf"
+          }
+        },
+        {
+          "client_id": "441623086459-665v0gdv9viav3rv5vut4a0s9hjq1cq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD48UVG4_yNv5AZmItoF9mrov0ls5pwvKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441623086459-665v0gdv9viav3rv5vut4a0s9hjq1cq3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
